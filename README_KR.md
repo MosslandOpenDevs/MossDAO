@@ -41,8 +41,8 @@ Mossland DAO는 모스랜드 프로젝트의 생태계, 기금, 전략적 방향
 
 > 아래 프로젝트들은 **실험(Experimental)** 단계에 있습니다. 기능과 가용성이 변경될 수 있습니다.
 
-- **Algora** — DAO 활동과 트렌드를 분석하는 AI 거버넌스 분석 플랫폼
-- **AO (Agentic Orchestrator)** — 자동화된 거버넌스 워크플로우를 위한 AI 에이전트 오케스트레이션 시스템
+- **Algora** — DAO 활동과 트렌드를 분석하는 AI 거버넌스 분석 플랫폼 ([GitHub](https://github.com/MosslandOpenDevs/Algora))
+- **AO (Agentic Orchestrator)** — 자동화된 거버넌스 워크플로우를 위한 AI 에이전트 오케스트레이션 시스템 ([GitHub](https://github.com/MosslandOpenDevs/agentic-orchestrator))
 
 ## MOC 토큰 및 멤버십
 

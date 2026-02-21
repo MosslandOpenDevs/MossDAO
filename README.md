@@ -41,8 +41,8 @@ Mossland DAO is a community-driven decentralized governance framework that manag
 
 > The following projects are in **experimental** stages. Features and availability may change.
 
-- **Algora** — AI governance analytics platform for analyzing DAO activity and trends
-- **AO (Agentic Orchestrator)** — AI agent orchestration system for automated governance workflows
+- **Algora** — AI governance analytics platform for analyzing DAO activity and trends ([GitHub](https://github.com/MosslandOpenDevs/Algora))
+- **AO (Agentic Orchestrator)** — AI agent orchestration system for automated governance workflows ([GitHub](https://github.com/MosslandOpenDevs/agentic-orchestrator))
 
 ## MOC Token & Membership
 
