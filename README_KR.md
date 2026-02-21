@@ -1,93 +1,91 @@
 # Mossland DAO
 
-## 1. Mossland Vision Statement
+> *[English Version](README.md)*
 
-모스랜드는 현실과 가상 세계를 잇는 블록체인 기반 메타버스 프로젝트로 초연결 세상의 구현을 추구합니다. 모스랜드의 핵심 가치 추구와 미션을 통해 초연결 기술을 구현하고 인류사회에 공헌하는 것을 궁극적인 목표로 삼고 있습니다.
+## 모스랜드 비전
 
+모스랜드는 현실과 가상 세계를 잇는 초연결 세상을 구축하고 있습니다. 블록체인과 메타버스에서 출발하여 Physical AI와 에이전틱 시스템으로 확장하고 있으며, 핵심 가치와 미션을 통해 초연결 기술을 실현하고 인류 사회에 공헌하는 것을 목표로 합니다.
 
-## 2. What is the Mossland DAO?
+## Mossland DAO란?
 
-모스랜드(Mossland)는 현실과 가상 세계를 잇는 블록체인 기반 메타버스 프로젝트로 시작하여 다양한 스마트 컨트랙트와 서비스를 소유하고 운영하고 있습니다. 모스랜드 DAO는 모스랜드 프로젝트와 관련된 주요한 스마트 컨트랙과 NFT 컨트랙트, 서비스 서버, 마켓플레이스 등을 소유하고 모스랜드 프로젝트의 생태계 기금을 분산 거버넌스 프로임워크를 통해 관리합니다. Mossland DAO는 다양하고 자급자족하는 생태계를 촉진하기 위해 Mossland 재단이 생태계 기금을 어떻게 분배할지 투표하는 제안 절차를 따릅니다. Mossland DAO를 통해서 Mossland 프로젝트의 미래를 Mosscoin 홀더가 원하는 방향에 더욱 일치시킬 수 있음을 기대합니다.
+Mossland DAO는 모스랜드 프로젝트의 생태계, 기금, 전략적 방향을 관리하는 커뮤니티 주도의 탈중앙화 거버넌스 프레임워크입니다. MOC(모스코인) 보유자는 DAO의 멤버로서 제안, 토론, 온체인 투표에 참여하여 모스랜드의 미래를 함께 만들어 갑니다.
 
-아래 문서는 Mossland DAO의 제안 프로세스에 대한 개요를 담고 있으며 DAO 커뮤니티의 의견으로 내용이 개선될 수 있습니다.
+- [Mossland DAO Governance v1.0](governance/Mossland_DAO_Governance_v1_KR.md)
 
-- [Mossland Governance Model](Mossland_DAO_Governance_KR.md)
+## 거버넌스 플랫폼: Agora
 
+**Agora**는 모스랜드의 온체인 거버넌스 플랫폼으로, 2025년 1월에 공식 런칭되었습니다. 커뮤니티 참여와 투명성을 극대화하기 위해 구축되었습니다.
 
-### 2.1. Mossland Improvement Proposal
+- **온체인 투표** — 이더리움에 기록되는 투명하고 검증 가능한 거버넌스 의사결정
+- **제안 제출** — MOC 보유자라면 누구나 Agora를 통해 제안 제출 가능
+- **커뮤니티 토론** — 투표 전 숙의를 위한 오픈 포럼
+- **협력적 의사결정** — 1 MOC = 1 vote
 
-Mossland DAO는 Luniverse 플랫폼에 의해 구현되고 Mossland DAO 공식 제안 프로세스를 통해 커뮤니티 주도 거버넌스로 운영됩니다.
+| | |
+|---|---|
+| 플랫폼 | [agora.moss.land](https://agora.moss.land/) |
+| 소스코드 | [github.com/mossland/Agora](https://github.com/mossland/Agora) |
 
-- [(Sample) MIP-1: 모스랜드 프로젝트를 위한 DAO(탈중앙화 자율조직) 도입 제안](MIP_Sample.md) 
+## AI 증강 거버넌스: MAIT
 
+**MAIT**(Mossland DAO AI Toolkit)는 AI 기반 분석과 지원을 통해 거버넌스를 강화합니다.
 
-## 3. 모스랜드 프로젝트에 DAO가 필요한 이유? / Why does Mossland Project need DAO integration?
-블록체인 기반의 메타버스를 구현하고 메타버스의 온연한 통제권을 탈중앙화하는 것은 모스랜드의 중요한 목표 중 하나였습니다. 모스코인 홀더들은 Mossland DAO를 통하여 모스랜드 메타버스의 세부 설계와 개발 그리고 운영 과정에 참여할 수 있습니다. Mossland DAO를 통해 모스랜드의 미래를 모스코인 홀더들이 원하는 방향에 더욱 일치시킬 수 있음을 기대합니다. 
+- **실시간 분석** — 커뮤니티 제안과 투표 데이터의 AI 분석
+- **AI 기반 제안 드래프팅** — 작성자가 제안을 구조화하고 다듬을 수 있도록 지원
 
+| | |
+|---|---|
+| 플랫폼 | [mait.moss.land](https://mait.moss.land/) |
+| 소스코드 | [github.com/mossland/MAIT](https://github.com/mossland/MAIT) |
 
-## 4. 모스랜드 DAO는 어떻게 동작하나요? How does Mossland DAO operate? 
-Mossland DAO는 Luniverse 플랫폼에 의해 구현되고 Mossland DAO 공식 제안 프로세스를 통해 커뮤니티 주도 거버넌스로 운영됩니다. 모스코인 홀더는 DAO의 멤버가 되어 아이디어 제출, 논평, 제안 제출, 투표 참여를 할 수 있습니다. Mossland 웹사이트는 DAO 회원에게 거버넌스 프로세스에 대해 설명을 제공하고 DAO Member 간의 커뮤니케이션 채널로 Discord, Snapshot 등 다양한 3rd Party 솔루션을 사용합니다. 모든 제안은 MIP (Mossland Idea Proposal) Idea 로 시작되게 됩니다. Idea는 Discourse 커뮤니케이션 채널에 게시물로 제출되며, 게시물이 공개되기 전에 DAO 승인 지침을 준수한다는 Moderator의 확인을 받아야 합니다. Idea를 게시하거나 댓글을 통해 아이디어에 피드백을 게시하기 위해서는 Mosscoin 보유에 대한 지갑 인증 절차를 거쳐야 합니다.
+## 실험적 프로젝트
 
+> 아래 프로젝트들은 **실험(Experimental)** 단계에 있습니다. 기능과 가용성이 변경될 수 있습니다.
 
-## 5. 모스랜드 DAO에서 어떤 것들이 결정되나요? What will be decided through the Mossland DAO?
-모스랜드 DAO 자금 활용 방법, 프로젝트 설계/개발/운영에 대한 제안, 협업에 대한 제안, 커뮤니티 지침에 대한 제안 등 다양한 이슈를 논의하고 결정할 수 있습니다. 예를 들면 아래와 같은 항목의 결정이 가능합니다. 다만, 제안 내용이 불법 활동, 증오심 표현, 음란물을 포함하거나 Mossland 재단의 사명이나 가치와 상충하는 경우 투표에 반영되지 않습니다.
-- 모스랜드 메타버스 스펙과 브랜드
-- 메타버스 안의 세부 서비스 개발
-- 새로운 서비스 개발 및 운영
-- 마켓플레이스의 수수료
-- 개발을 위한 모스랜드 DAO 자금 (Mosscoin) 할당량 결정
-- 이사회, 매니지먼트 멤버 교체
+- **Algora** — DAO 활동과 트렌드를 분석하는 AI 거버넌스 분석 플랫폼
+- **AO (Agentic Orchestrator)** — 자동화된 거버넌스 워크플로우를 위한 AI 에이전트 오케스트레이션 시스템
 
+## MOC 토큰 및 멤버십
 
-## 6. What about MOC(Mosscoin)?
+**MOC(모스코인)**은 이더리움 ERC-20 토큰입니다. 루니버스(Luniverse)에서 이더리움으로의 네트워크 전환은 Agora에서의 DAO 투표를 거쳐 2025년에 완료되었습니다.
 
-Mossland DAO의 합의 메커니즘은 Mosscoin 보유자가 DAO의 의사 결정에 참여할 수 있도록 투표를 공정하고 투명하며 저렴하게 하는 것을 목표로 합니다.
-모스랜드 DAO의 아이디어 제출, 논평, 제안 제출, 투표 참여는 Mossland DAO Member로 제한됩니다. Mosscoin을 보유하면 DAO의 Member 가 됩니다. Idea를 게시하거나 댓글을 통해 아이디어에 피드백을 게시하기 위해서는 Mosscoin 보유에 대한 지갑 인증 절차를 거쳐야 합니다.
+- MOC 보유 = Mossland DAO 멤버십
+- 1 MOC = 1 vote
+- Agora에서 지갑(예: MetaMask)을 연결하여 참여
 
+**상장 거래소**: Upbit, Bithumb, Coinone, GOPAX
 
+## MIP (Mossland Improvement Proposal)
 
-## 7. Preparation to convert into Mossland DAO 
+MIP는 모스랜드 생태계의 변경을 제안하는 공식 메커니즘입니다. 프로세스는 다음 단계를 따릅니다:
 
-모스랜드는 DAO(decentralized autonomous organization) 거버넌스 도입을 통하여 모스랜드 생태계 기금의 운영, 프로젝트 개발과 운영 등 프로젝트의 미래와 비전을 모스코인 홀더가 원하는 방향에 더욱 일치시키고자 합니다. 
- - 모스랜드 DAO 거버넌스 모델은 [GitHub MossDAO repo](https://github.com/mossland/MossDAO)에 공개되어 실시간 업데이트됩니다. 
- - 2022년 하반기에 모스버스(모스랜드 메타버스) 공개와 함께 모스랜드 DAO 전환을 위한 투표가 진행 될 예정입니다.
+1. **제안 제출** — Agora를 통해 제출
+2. **커뮤니티 토론** — Agora 포럼에서 오픈 토론
+3. **검토** — 모더레이터/관리자 리뷰
+4. **온체인 투표** — 1 MOC = 1 vote
+5. **결의** — 과반수 찬성 = 승인
+6. **실행**
 
+- [MIP 템플릿](proposals/MIP_Template_KR.md)
+- [MIP 샘플 (MIP-1)](proposals/MIP_Sample_KR.md)
+- [Governance v1.0 문서](governance/Mossland_DAO_Governance_v1_KR.md) — 전체 프로세스 상세
 
-### 7.1. 모스랜드 프로젝트의 DAO 적용 체크리스트
+## 링크 모음
 
-중앙집중화 리스크 체크리스트
-1. 일반 대중에 의해 시스템이나 네트워크에 대한 변경 사항을 제안할 수 있어야 합니다.
-2. 일반 대중이 프로젝트 팀의 동의 없이 시스템 또는 네트워크를 변경할 수 있도록 하거나 프로젝트 팀이 해당 제안에 동의하는지 여부에 관계없이 토큰 보유 커뮤니티에서 투표한 공개 제안을 구현해야 합니다. 여기에는 프로젝트 팀에서 지원하거나 개발하지 않은 네트워크 또는 시스템 코드에 대한 업데이트도 포함되어야 합니다.
-3. 프로젝트 팀과 관련이 없거나 비용을 지불하지 않는 개발자가 프로젝트에 상당한 기여를 하고 있어야 합니다. 그들이 네트워크나 시스템을 적극적으로 개발 중이거나 다른 필수 작업과 책임에 참여하고 있음을 보여주어야 합니다. 예시) 오픈 소스 리포지토리에서 pull 요청 또는 커밋.
-4. 프로젝트 팀에 속하지 않은 개인이나 그룹이 네트워크 또는 시스템을 의도한 목적을 위해 적극적으로 사용하고 있어야 합니다. 예시) dApp, 빌드된 프로젝트, 일일 활성 사용자.
+| 리소스 | URL |
+|--------|-----|
+| 모스랜드 웹사이트 | [moss.land](https://www.moss.land/) |
+| 공시 | [disclosure.moss.land](https://disclosure.moss.land/) |
+| Agora (거버넌스) | [agora.moss.land](https://agora.moss.land/) |
+| MAIT (AI 툴킷) | [mait.moss.land](https://mait.moss.land/) |
+| GitHub (Mossland) | [github.com/mossland](https://github.com/mossland) |
+| GitHub (MosslandOpenDevs) | [github.com/MosslandOpenDevs](https://github.com/MosslandOpenDevs) |
+| X (Twitter) | [@theMossland](https://twitter.com/theMossland) |
 
-프로젝트 팀의 적극적 참여 리스크
-1. 가능하면 프로젝트 팀의 활동을 줄여 프로젝트의 가치나 성공에 더 이상 중요하지 않도록 해야 합니다.
-2. 가능하면 대중이 토큰과 네트워크를 중앙 관리하는 팀으로 간주하는 프로젝트 팀이 없도록 구조를 변경해야 합니다.
-3. 토큰 마케팅에서 프로젝트 팀의 배경에 대해 논의하거나 홍보하지 말아야 합니다.
-4. 프로젝트 팀이 네트워크의 광범위한 채택 및 사용을 촉진하고 있다면 그러한 행동을 멈추는 것이 좋습니다.
+## 아카이브
 
+이전 거버넌스 모델(v0.3, 2022)은 Discourse와 Snapshot 기반이었으며, [`archive/v0.3_Governance_2022/`](archive/v0.3_Governance_2022/)에 보존되어 있습니다.
 
-### 7.2. CyberTHUG Portal 개발을 통한 투표 솔루션 검증
+## 변경 이력
 
-모스랜드 팀에서 CyberTHUG 프로젝트의 Portal 개발을 통하여 아이디어 제안, 투표, 결과 확인 기능을 자체 구현하였으며 동작을 검증해나가고 있습니다. CyberTHUG Portal의 개발과 운영에서 얻은 경험으로 안정적인 모스랜드 DAO 투표 솔루션의 개발을 준비하고 있습니다.
-
-- [CyberTHUG Portal](https://portal.thecyberthug.com/)
-
-### 7.3. 모스랜드 메타버스(모스버스)와 투표 솔루션의 연동
-
-모스랜드의 투표 솔루션은 웹사이트를 통해 이용할 수 있을 뿐만 아니라 모스랜드 메타버스(모스버스)에서도 투표 솔루션을 이용할 수 있도록 준비하고 있습니다.
-모스버스에서는 다양한 기능이 메타버스 맵 내의 건물로 구현이 될 예정이며, 모스랜드 투표 솔루션은 투표소 건물로 구현될 예정입니다.
-
-- 투표소 건물 예상 스펙
-  - 투표 리스트 및 상세 보기
-    - 마감된 투표와 예정된 투표, 진행중인 투표 리스트 뷰
-    - 마감된 투표와 예정된 투표, 진행중인 투표의 상세 내용 보는 뷰
-    - 마감된 투표는 마감되었다고 뜨고, 결과 공시 상태인 투표는 결과 공시 뷰가 떠야합니다.
-  - 투표 참여 기능
-    - 지갑에 MOC 소유 여부 확인
-    - MOC 소유 수량에 따라 행사하는 투표수 차별
-    - 연동된 Metamask 지갑으로 루니버스 체인에 올라간 투표 컨트랙에 투표 함수 호출하여 투표
-
-![image](https://user-images.githubusercontent.com/38033515/182895266-bab1387d-c90d-4faa-a21e-e4a47cd5342f.png)
-
+거버넌스 업데이트 이력은 [CHANGELOG_KR.md](CHANGELOG_KR.md)를 참조하세요.
