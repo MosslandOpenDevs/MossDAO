@@ -24,7 +24,7 @@ Mossland DAO는 모스랜드 프로젝트의 생태계, 기금, 전략적 방향
 | | |
 |---|---|
 | 플랫폼 | [agora.moss.land](https://agora.moss.land/) |
-| 소스코드 | [github.com/mossland/Agora](https://github.com/mossland/Agora) |
+| 소스코드 | [github.com/MosslandOpenDevs/Agora](https://github.com/MosslandOpenDevs/Agora) |
 
 ## AI 증강 거버넌스: MAIT
 
@@ -36,7 +36,6 @@ Mossland DAO는 모스랜드 프로젝트의 생태계, 기금, 전략적 방향
 | | |
 |---|---|
 | 플랫폼 | [mait.moss.land](https://mait.moss.land/) |
-| 소스코드 | [github.com/mossland/MAIT](https://github.com/mossland/MAIT) |
 
 ## 실험적 프로젝트
 

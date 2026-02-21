@@ -71,7 +71,7 @@ Agora는 모스랜드의 온체인 거버넌스 플랫폼으로, 2025년 1월에
 | | |
 |---|---|
 | 플랫폼 | [agora.moss.land](https://agora.moss.land/) |
-| 소스코드 | [github.com/mossland/Agora](https://github.com/mossland/Agora) |
+| 소스코드 | [github.com/MosslandOpenDevs/Agora](https://github.com/MosslandOpenDevs/Agora) |
 
 ---
 
@@ -141,7 +141,6 @@ MAIT는 AI 기능을 거버넌스 프로세스에 통합합니다:
 | | |
 |---|---|
 | 플랫폼 | [mait.moss.land](https://mait.moss.land/) |
-| 소스코드 | [github.com/mossland/MAIT](https://github.com/mossland/MAIT) |
 
 ### 실험적 프로젝트
 

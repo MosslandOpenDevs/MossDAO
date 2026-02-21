@@ -71,7 +71,7 @@ Agora is Mossland's on-chain governance platform, launched in January 2025.
 | | |
 |---|---|
 | Platform | [agora.moss.land](https://agora.moss.land/) |
-| Source | [github.com/mossland/Agora](https://github.com/mossland/Agora) |
+| Source | [github.com/MosslandOpenDevs/Agora](https://github.com/MosslandOpenDevs/Agora) |
 
 ---
 
@@ -141,7 +141,6 @@ MAIT integrates AI capabilities into the governance process:
 | | |
 |---|---|
 | Platform | [mait.moss.land](https://mait.moss.land/) |
-| Source | [github.com/mossland/MAIT](https://github.com/mossland/MAIT) |
 
 ### Experimental Projects
 

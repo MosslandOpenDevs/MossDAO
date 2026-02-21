@@ -24,7 +24,7 @@ Mossland DAO is a community-driven decentralized governance framework that manag
 | | |
 |---|---|
 | Platform | [agora.moss.land](https://agora.moss.land/) |
-| Source | [github.com/mossland/Agora](https://github.com/mossland/Agora) |
+| Source | [github.com/MosslandOpenDevs/Agora](https://github.com/MosslandOpenDevs/Agora) |
 
 ## AI-Augmented Governance: MAIT
 
@@ -36,7 +36,6 @@ Mossland DAO is a community-driven decentralized governance framework that manag
 | | |
 |---|---|
 | Platform | [mait.moss.land](https://mait.moss.land/) |
-| Source | [github.com/mossland/MAIT](https://github.com/mossland/MAIT) |
 
 ## Experimental Projects
 
