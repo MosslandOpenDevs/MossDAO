@@ -19,6 +19,8 @@ Mossland DAO is a community-driven decentralized governance framework that manag
 - **On-chain voting** — Transparent, verifiable governance decisions recorded on Ethereum
 - **Proposal submission** — Any MOC holder can submit proposals through Agora
 - **Community discussion** — Open forum for deliberation before voting
+- **Advanced search & filter** — Search proposals by status, category, and date; CSV export for analysis
+- **Mobile-optimized** — Responsive design for full participation on any device
 - **Collaborative decision-making** — 1 MOC = 1 vote
 
 | | |
@@ -30,8 +32,10 @@ Mossland DAO is a community-driven decentralized governance framework that manag
 
 **MAIT** (Mossland DAO AI Toolkit) enhances governance through AI-powered analysis and support.
 
-- **Real-time analysis** of community proposals and voting data
-- **AI-assisted proposal drafting** to help authors structure and refine their proposals
+- **AI-assisted proposal drafting** — Generate proposal drafts from topic inputs
+- **Automatic language detection** — Korean/English auto-detection and support
+- **Sentiment analysis** — Community sentiment and decision support insights
+- **Real-time analytics** — Voting patterns and participation data
 
 | | |
 |---|---|

@@ -67,6 +67,8 @@ Agora is Mossland's on-chain governance platform, launched in January 2025.
 - **Community discussion**: Open forum for deliberation and feedback
 - **On-chain voting**: Transparent, verifiable votes recorded on Ethereum
 - **Results and execution**: Voting outcomes are publicly recorded on-chain
+- **Advanced search & filter**: Search proposals by status, category, and date; CSV export for analysis and reporting
+- **Mobile-optimized**: Responsive design for full participation on any device
 
 | | |
 |---|---|
@@ -134,9 +136,10 @@ Accepted proposals are implemented based on the specifications in the MIP. The M
 
 MAIT integrates AI capabilities into the governance process:
 
-- **Proposal analysis**: AI-powered analysis of proposal content, feasibility, and potential impact
-- **Drafting assistance**: Helps authors structure and refine proposals before submission
-- **Voting data insights**: Real-time analytics on community voting patterns and participation
+- **AI-assisted drafting**: Generate proposal drafts from topic inputs with apply/copy features for refinement
+- **Automatic language detection**: Korean/English auto-detection and multilingual support
+- **Sentiment analysis**: Community sentiment insights and decision support
+- **Voting data analytics**: Real-time analytics on community voting patterns and participation
 
 | | |
 |---|---|
