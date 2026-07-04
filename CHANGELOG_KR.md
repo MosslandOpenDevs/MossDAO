@@ -4,6 +4,25 @@ Mossland DAO 거버넌스의 주요 변경사항을 기록합니다.
 
 > *[English Version](CHANGELOG.md)*
 
+## v1.1 (2026.07)
+
+### 플랫폼
+- **Agora 업데이트**: **MAIT**(Mossland DAO AI Toolkit)를 Agora에 내장 AI 레이어로 직접 통합 — 더 이상 독립 서비스가 아님 (`mait.moss.land` 종료)
+- **Mossland Passport** 런칭 (베타 / 스텔스 소프트 런칭) — MOC 홀더를 위한 셀프커스터디 지갑 활성화 프로그램: 가스리스 서명 인증, 거버넌스 위임 및 시그널 투표, 월간 체크인 스탬프, 셀프커스터디 출금 수수료 보상, "Founding 2026" 기념 스탬프 ([passport.moss.land](https://passport.moss.land/))
+
+### 문서
+- MAIT를 Agora의 내장 AI 기능으로 재정의 (MAIT 명칭은 유지); README 및 거버넌스 문서 전반에서 독립 `mait.moss.land` 플랫폼 링크 제거
+- README(EN/KR)와 Governance v1.0 문서(EN/KR)에 **Mossland Passport (Beta)** 섹션 추가
+- 링크 표 업데이트: MAIT 제거, Passport 추가
+- Agora 기능 목록에 AI 지원 항목 추가
+- **Algora**·**AO** 설명을 현행 범위에 맞게 갱신하고 라이브 URL 추가 ([algora.moss.land](https://algora.moss.land/), [ao.moss.land](https://ao.moss.land/))
+
+### 참고사항
+- 거버넌스 모델(제안 프로세스, 투표 규칙, 멤버십)은 v1.0에서 **변경 없음** — 이번 릴리스는 플랫폼/툴링 설명만 업데이트
+- Mossland Passport는 베타(스텔스 소프트 런칭) 단계로 기능과 가용성이 변경될 수 있으며, Passport를 통한 시그널 투표와 위임은 참여 시그널로서 온체인 투표를 대체하지 않음
+
+---
+
 ## v1.0 (2026.02)
 
 ### 거버넌스

@@ -59,7 +59,7 @@ The total cost to implement the proposal. Must be clear and calculable for the p
 
 ### AI Analysis (Optional)
 
-> This section is optional. If MAIT was used to analyze this proposal, include the AI-generated analysis here.
+> This section is optional. If Agora's built-in AI toolkit (MAIT) was used to analyze this proposal, include the AI-generated analysis here.
 
 - **Feasibility Assessment**: [MAIT analysis summary]
 - **Risk Analysis**: [Identified risks and mitigations]

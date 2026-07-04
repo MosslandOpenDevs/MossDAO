@@ -19,6 +19,7 @@ Mossland DAO is a community-driven decentralized governance framework that manag
 - **On-chain voting** — Transparent, verifiable governance decisions recorded on Ethereum
 - **Proposal submission** — Any MOC holder can submit proposals through Agora
 - **Community discussion** — Open forum for deliberation before voting
+- **Built-in AI assistance** — MAIT, Agora's integrated AI toolkit for proposal drafting and analysis (see below)
 - **Advanced search & filter** — Search proposals by status, category, and date; CSV export for analysis
 - **Mobile-optimized** — Responsive design for full participation on any device
 - **Collaborative decision-making** — 1 MOC = 1 vote
@@ -30,23 +31,41 @@ Mossland DAO is a community-driven decentralized governance framework that manag
 
 ## AI-Augmented Governance: MAIT
 
-**MAIT** (Mossland DAO AI Toolkit) enhances governance through AI-powered analysis and support.
+**MAIT** (Mossland DAO AI Toolkit) is Agora's built-in AI layer, integrated directly into the governance platform to enhance participation through AI-powered analysis and support.
 
 - **AI-assisted proposal drafting** — Generate proposal drafts from topic inputs
 - **Automatic language detection** — Korean/English auto-detection and support
 - **Sentiment analysis** — Community sentiment and decision support insights
 - **Real-time analytics** — Voting patterns and participation data
 
+> MAIT is now built into Agora — there is no separate app or login. Access it within [agora.moss.land](https://agora.moss.land/).
+
+## Mossland Passport (Beta)
+
+**Mossland Passport** is a self-custody wallet activation program for MOC holders, currently in **beta**. It lets holders prove MOC ownership and participate in governance directly from a self-custodial wallet — with no gas fees and without ever exposing private keys or seed phrases.
+
+- **Gas-free signature authentication** — Verify MOC ownership by signing a message; no on-chain transaction or fee required
+- **Governance delegation & signal voting** — Delegate voting power and cast signal votes on community sentiment
+- **Monthly check-in stamps** — Track ongoing participation with monthly on-record check-ins
+- **Withdrawal fee compensation** — Support for moving MOC from exchanges to self-custody
+- **Founding 2026 stamp** — A commemorative stamp for early participants
+- **Transparent by design** — Signature records and activity are publicly disclosed
+
+> 🔒 Mossland Passport never requests private keys or seed phrases.
+>
+> 📋 Signal votes and delegation via Passport are participation signals — they do not replace binding on-chain votes on Agora.
+
 | | |
 |---|---|
-| Platform | [mait.moss.land](https://mait.moss.land/) |
+| Platform | [passport.moss.land](https://passport.moss.land/) |
+| Status | Beta (soft launch) |
 
 ## Experimental Projects
 
 > The following projects are in **experimental** stages. Features and availability may change.
 
-- **Algora** — AI governance analytics platform for analyzing DAO activity and trends ([GitHub](https://github.com/MosslandOpenDevs/Algora))
-- **AO (Agentic Orchestrator)** — AI agent orchestration system for automated governance workflows ([GitHub](https://github.com/MosslandOpenDevs/agentic-orchestrator))
+- **Algora** — A 24/7 "agentic governance" platform where 30+ AI agent personas continuously debate DAO topics and surface recommendations for human decision-makers ([algora.moss.land](https://algora.moss.land/) · [GitHub](https://github.com/MosslandOpenDevs/Algora))
+- **AO (Agentic Orchestrator)** — A multi-agent orchestration engine that runs a swarm of AI agents through a divergence → convergence → planning cycle to propose and build software from live signals ([ao.moss.land](https://ao.moss.land/) · [GitHub](https://github.com/MosslandOpenDevs/agentic-orchestrator))
 
 ## MOC Token & Membership
 
@@ -80,7 +99,7 @@ MIPs are the formal mechanism for proposing changes to the Mossland ecosystem. T
 | Mossland Website | [moss.land](https://www.moss.land/) |
 | Disclosure | [disclosure.moss.land](https://disclosure.moss.land/) |
 | Agora (Governance) | [agora.moss.land](https://agora.moss.land/) |
-| MAIT (AI Toolkit) | [mait.moss.land](https://mait.moss.land/) |
+| Passport (Beta) | [passport.moss.land](https://passport.moss.land/) |
 | GitHub (Mossland) | [github.com/mossland](https://github.com/mossland) |
 | GitHub (MosslandOpenDevs) | [github.com/MosslandOpenDevs](https://github.com/MosslandOpenDevs) |
 | X (Twitter) | [@theMossland](https://twitter.com/theMossland) |

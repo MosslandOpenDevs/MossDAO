@@ -1,6 +1,6 @@
 # Mossland DAO Governance v1.0
 
-- 작성일: 2026년 2월
+- 작성일: 2026년 2월 (2026년 7월 개정)
 - 버전: 1.0
 - 목적: Agora 온체인 거버넌스 플랫폼 기반의 Mossland DAO 거버넌스 모델을 정의합니다.
 
@@ -67,6 +67,7 @@ Agora는 모스랜드의 온체인 거버넌스 플랫폼으로, 2025년 1월에
 - **커뮤니티 토론**: 숙의와 피드백을 위한 오픈 포럼
 - **온체인 투표**: 이더리움에 기록되는 투명하고 검증 가능한 투표
 - **결과 및 실행**: 투표 결과가 온체인에 공개 기록
+- **내장 AI 지원**: Agora에 통합된 AI 툴킷 MAIT가 제안 드래프팅 및 분석을 지원 (아래 AI 증강 거버넌스 참고)
 - **고급 검색 및 필터**: 상태, 카테고리, 날짜별 제안 검색; 분석 및 리포팅을 위한 CSV 내보내기
 - **모바일 최적화**: 어떤 기기에서든 참여 가능한 반응형 디자인
 
@@ -134,23 +135,40 @@ MIP(Mossland Improvement Proposal)는 v0.3 프레임워크와 일관되게 세 �
 
 ### MAIT (Mossland DAO AI Toolkit)
 
-MAIT는 AI 기능을 거버넌스 프로세스에 통합합니다:
+MAIT는 Agora에 통합된 내장 AI 레이어로, 거버넌스 플랫폼에 직접 탑재되어 있습니다(별도 애플리케이션 아님). AI 기능을 거버넌스 프로세스에 통합합니다:
 
 - **AI 기반 드래프팅**: 주제 입력으로 제안 초안 자동 생성, 적용/복사 기능으로 수정 지원
 - **자동 언어 감지**: 한국어/영어 자동 감지 및 다국어 지원
 - **감성 분석**: 커뮤니티 감성 인사이트 및 의사결정 지원
 - **투표 데이터 분석**: 커뮤니티 투표 패턴과 참여에 대한 실시간 분석
 
-| | |
-|---|---|
-| 플랫폼 | [mait.moss.land](https://mait.moss.land/) |
+> MAIT는 [agora.moss.land](https://agora.moss.land/) 내에서 이용하며, 더 이상 독립 서비스가 아닙니다.
 
 ### 실험적 프로젝트
 
 > 아래 프로젝트들은 **실험(Experimental)** 단계에 있습니다. 기능과 가용성이 변경될 수 있습니다.
 
-- **Algora**: DAO 활동과 트렌드를 분석하는 AI 거버넌스 분석 플랫폼 ([GitHub](https://github.com/MosslandOpenDevs/Algora))
-- **AO (Agentic Orchestrator)**: 자동화된 거버넌스 워크플로우를 위한 AI 에이전트 오케스트레이션 ([GitHub](https://github.com/MosslandOpenDevs/agentic-orchestrator))
+- **Algora**: 30개 이상의 AI 에이전트 페르소나가 24시간 DAO 이슈를 자율 토론하고, 사람 의사결정자에게 추천안을 제시하는 에이전틱 거버넌스 플랫폼 ([algora.moss.land](https://algora.moss.land/) · [GitHub](https://github.com/MosslandOpenDevs/Algora))
+- **AO (Agentic Orchestrator)**: AI 에이전트 스웜을 발산 → 수렴 → 계획 사이클로 구동해, 라이브 시그널로부터 소프트웨어를 제안·구축하는 멀티에이전트 오케스트레이션 엔진 ([ao.moss.land](https://ao.moss.land/) · [GitHub](https://github.com/MosslandOpenDevs/agentic-orchestrator))
+
+---
+
+## Mossland Passport (Beta)
+
+Mossland Passport는 MOC 홀더를 위한 셀프커스터디(self-custody) 지갑 활성화 프로그램으로, 현재 베타 단계입니다. 개인키나 시드 구문을 노출하지 않고 가스비 없이 셀프커스터디 지갑에서 직접 멤버십 인증과 참여가 가능하도록 Agora를 보완합니다.
+
+- **가스리스 서명 인증**: 메시지 서명만으로 MOC 보유 증명; 온체인 트랜잭션이나 수수료 불필요
+- **거버넌스 위임 및 시그널 투표**: 투표권 위임과 커뮤니티 시그널 투표 참여
+- **참여 추적**: 월간 체크인 스탬프와 초기 참여자를 위한 "Founding 2026" 기념 스탬프
+- **셀프커스터디 지원**: 거래소에서 셀프커스터디로 MOC 이전 시 출금 수수료 보상
+- **투명성**: 서명 기록과 활동 내역을 공개적으로 공시
+
+| | |
+|---|---|
+| 플랫폼 | [passport.moss.land](https://passport.moss.land/) |
+| 상태 | Beta (소프트 런칭) |
+
+> Mossland Passport는 베타 단계이며 기능과 가용성이 변경될 수 있습니다. 개인키·시드 구문을 절대 요구하지 않습니다. Passport를 통한 시그널 투표와 위임은 참여 시그널이며, 아래에 정의된 온체인 투표를 대체하지 않습니다.
 
 ---
 
@@ -214,3 +232,4 @@ MOC는 현재 이더리움 ERC-20 토큰으로만 존재합니다. Luniverse 기
 |------|------|------|
 | v0.3 | 2022년 7월 | 초기 거버넌스 모델 설계. Discourse/Snapshot 기반. ApeCoin DAO 참조. [아카이브](../archive/v0.3_Governance_2022/) 참고. |
 | v1.0 | 2026년 2월 | Agora 기반 온체인 거버넌스. MAIT AI 증강. MOC ERC-20 이더리움 전환. 리포 구조화. |
+| v1.0 (개정) | 2026년 7월 | 플랫폼 업데이트: MAIT를 Agora에 내장 AI 레이어로 통합(독립 `mait.moss.land` 종료), Mossland Passport(베타) 런칭. 거버넌스 모델 자체는 변경 없음. |

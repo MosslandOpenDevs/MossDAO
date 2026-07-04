@@ -1,6 +1,6 @@
 # Mossland DAO Governance v1.0
 
-- Date: February 2026
+- Date: February 2026 (revised July 2026)
 - Version: 1.0
 - Purpose: This document defines the governance model for the Mossland DAO, based on the Agora on-chain governance platform.
 
@@ -67,6 +67,7 @@ Agora is Mossland's on-chain governance platform, launched in January 2025.
 - **Community discussion**: Open forum for deliberation and feedback
 - **On-chain voting**: Transparent, verifiable votes recorded on Ethereum
 - **Results and execution**: Voting outcomes are publicly recorded on-chain
+- **Built-in AI assistance**: MAIT, Agora's integrated AI toolkit, supports proposal drafting and analysis (see AI-Augmented Governance below)
 - **Advanced search & filter**: Search proposals by status, category, and date; CSV export for analysis and reporting
 - **Mobile-optimized**: Responsive design for full participation on any device
 
@@ -134,23 +135,40 @@ Accepted proposals are implemented based on the specifications in the MIP. The M
 
 ### MAIT (Mossland DAO AI Toolkit)
 
-MAIT integrates AI capabilities into the governance process:
+MAIT is Agora's built-in AI layer, integrated directly into the governance platform (no separate application). It brings AI capabilities into the governance process:
 
 - **AI-assisted drafting**: Generate proposal drafts from topic inputs with apply/copy features for refinement
 - **Automatic language detection**: Korean/English auto-detection and multilingual support
 - **Sentiment analysis**: Community sentiment insights and decision support
 - **Voting data analytics**: Real-time analytics on community voting patterns and participation
 
-| | |
-|---|---|
-| Platform | [mait.moss.land](https://mait.moss.land/) |
+> MAIT is accessed within Agora at [agora.moss.land](https://agora.moss.land/); it is no longer a standalone service.
 
 ### Experimental Projects
 
 > The following are in **experimental** stages. Features and availability may change.
 
-- **Algora**: AI governance analytics platform for analyzing DAO activity and trends ([GitHub](https://github.com/MosslandOpenDevs/Algora))
-- **AO (Agentic Orchestrator)**: AI agent orchestration for automated governance workflows ([GitHub](https://github.com/MosslandOpenDevs/agentic-orchestrator))
+- **Algora**: A 24/7 "agentic governance" platform where 30+ AI agent personas continuously debate DAO topics and surface recommendations for human decision-makers ([algora.moss.land](https://algora.moss.land/) · [GitHub](https://github.com/MosslandOpenDevs/Algora))
+- **AO (Agentic Orchestrator)**: A multi-agent orchestration engine that runs a swarm of AI agents through a divergence → convergence → planning cycle to propose and build software from live signals ([ao.moss.land](https://ao.moss.land/) · [GitHub](https://github.com/MosslandOpenDevs/agentic-orchestrator))
+
+---
+
+## Mossland Passport (Beta)
+
+Mossland Passport is a self-custody wallet activation program for MOC holders, currently in beta. It complements Agora by making membership verification and participation accessible directly from a self-custodial wallet — gas-free and without exposing private keys or seed phrases.
+
+- **Gas-free signature authentication**: Prove MOC ownership by signing a message; no on-chain transaction or fee
+- **Governance delegation & signal voting**: Delegate voting power and cast signal votes on community sentiment
+- **Participation tracking**: Monthly check-in stamps and a "Founding 2026" commemorative stamp for early participants
+- **Self-custody support**: Withdrawal fee compensation for moving MOC from exchanges to self-custody
+- **Transparency**: Signature records and activity are publicly disclosed
+
+| | |
+|---|---|
+| Platform | [passport.moss.land](https://passport.moss.land/) |
+| Status | Beta (soft launch) |
+
+> Mossland Passport is in beta; features and availability may change. It never requests private keys or seed phrases. Signal votes and delegation via Passport are participation signals and do not replace the on-chain vote defined below.
 
 ---
 
@@ -214,3 +232,4 @@ MOC is now exclusively an Ethereum ERC-20 token. The Luniverse-based MOC has bee
 |---------|------|-------------|
 | v0.3 | July 2022 | Initial governance model design. Discourse/Snapshot-based. ApeCoin DAO reference. See [archive](../archive/v0.3_Governance_2022/). |
 | v1.0 | February 2026 | Agora-based on-chain governance. MAIT AI augmentation. MOC ERC-20 on Ethereum. Repository restructured. |
+| v1.0 (rev.) | July 2026 | Platform update: MAIT integrated into Agora as a built-in AI layer (standalone `mait.moss.land` retired); Mossland Passport (beta) launched. Governance model unchanged. |

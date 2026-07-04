@@ -19,6 +19,7 @@ Mossland DAO는 모스랜드 프로젝트의 생태계, 기금, 전략적 방향
 - **온체인 투표** — 이더리움에 기록되는 투명하고 검증 가능한 거버넌스 의사결정
 - **제안 제출** — MOC 보유자라면 누구나 Agora를 통해 제안 제출 가능
 - **커뮤니티 토론** — 투표 전 숙의를 위한 오픈 포럼
+- **내장 AI 지원** — Agora에 통합된 AI 툴킷 MAIT로 제안 드래프팅 및 분석 (아래 참고)
 - **고급 검색 및 필터** — 상태, 카테고리, 날짜별 제안 검색; 분석을 위한 CSV 내보내기
 - **모바일 최적화** — 어떤 기기에서든 참여 가능한 반응형 디자인
 - **협력적 의사결정** — 1 MOC = 1 vote
@@ -30,23 +31,41 @@ Mossland DAO는 모스랜드 프로젝트의 생태계, 기금, 전략적 방향
 
 ## AI 증강 거버넌스: MAIT
 
-**MAIT**(Mossland DAO AI Toolkit)는 AI 기반 분석과 지원을 통해 거버넌스를 강화합니다.
+**MAIT**(Mossland DAO AI Toolkit)는 Agora에 통합된 내장 AI 레이어로, 거버넌스 플랫폼에 직접 탑재되어 AI 기반 분석과 지원으로 참여를 강화합니다.
 
 - **AI 기반 제안 드래프팅** — 주제 입력으로 제안 초안 자동 생성
 - **자동 언어 감지** — 한국어/영어 자동 감지 및 지원
 - **감성 분석** — 커뮤니티 감성 및 의사결정 지원 인사이트
 - **실시간 분석** — 투표 패턴과 참여 데이터
 
+> MAIT는 이제 Agora에 내장되어 있으며, 별도의 앱이나 로그인이 없습니다. [agora.moss.land](https://agora.moss.land/)에서 바로 이용하세요.
+
+## Mossland Passport (Beta)
+
+**Mossland Passport**는 MOC 홀더를 위한 셀프커스터디(self-custody) 지갑 활성화 프로그램으로, 현재 **베타** 단계입니다. 홀더는 개인키나 시드 구문을 노출하지 않고, 가스비 없이 셀프커스터디 지갑에서 직접 MOC 보유를 증명하고 거버넌스에 참여할 수 있습니다.
+
+- **가스리스 서명 인증** — 메시지 서명만으로 MOC 보유 증명; 온체인 트랜잭션이나 수수료 불필요
+- **거버넌스 위임 및 시그널 투표** — 투표권 위임과 커뮤니티 시그널 투표 참여
+- **월간 체크인 스탬프** — 매월 온레코드 체크인으로 지속 참여 기록
+- **출금 수수료 보상** — 거래소에서 셀프커스터디로 MOC 이전 시 지원
+- **Founding 2026 스탬프** — 초기 참여자를 위한 기념 스탬프
+- **투명성 기반 설계** — 서명 기록과 활동 내역을 공개적으로 공시
+
+> 🔒 Mossland Passport는 개인키·시드 구문을 절대 요구하지 않습니다.
+>
+> 📋 Passport의 시그널 투표와 위임은 참여 시그널로서, Agora의 구속력 있는 온체인 투표를 대체하지 않습니다.
+
 | | |
 |---|---|
-| 플랫폼 | [mait.moss.land](https://mait.moss.land/) |
+| 플랫폼 | [passport.moss.land](https://passport.moss.land/) |
+| 상태 | Beta (소프트 런칭) |
 
 ## 실험적 프로젝트
 
 > 아래 프로젝트들은 **실험(Experimental)** 단계에 있습니다. 기능과 가용성이 변경될 수 있습니다.
 
-- **Algora** — DAO 활동과 트렌드를 분석하는 AI 거버넌스 분석 플랫폼 ([GitHub](https://github.com/MosslandOpenDevs/Algora))
-- **AO (Agentic Orchestrator)** — 자동화된 거버넌스 워크플로우를 위한 AI 에이전트 오케스트레이션 시스템 ([GitHub](https://github.com/MosslandOpenDevs/agentic-orchestrator))
+- **Algora** — 30개 이상의 AI 에이전트 페르소나가 24시간 DAO 이슈를 자율 토론하고, 사람 의사결정자에게 추천안을 제시하는 에이전틱 거버넌스 플랫폼 ([algora.moss.land](https://algora.moss.land/) · [GitHub](https://github.com/MosslandOpenDevs/Algora))
+- **AO (Agentic Orchestrator)** — AI 에이전트 스웜을 발산 → 수렴 → 계획 사이클로 구동해, 라이브 시그널로부터 소프트웨어를 제안·구축하는 멀티에이전트 오케스트레이션 엔진 ([ao.moss.land](https://ao.moss.land/) · [GitHub](https://github.com/MosslandOpenDevs/agentic-orchestrator))
 
 ## MOC 토큰 및 멤버십
 
@@ -80,7 +99,7 @@ MIP는 모스랜드 생태계의 변경을 제안하는 공식 메커니즘입�
 | 모스랜드 웹사이트 | [moss.land](https://www.moss.land/) |
 | 공시 | [disclosure.moss.land](https://disclosure.moss.land/) |
 | Agora (거버넌스) | [agora.moss.land](https://agora.moss.land/) |
-| MAIT (AI 툴킷) | [mait.moss.land](https://mait.moss.land/) |
+| Passport (베타) | [passport.moss.land](https://passport.moss.land/) |
 | GitHub (Mossland) | [github.com/mossland](https://github.com/mossland) |
 | GitHub (MosslandOpenDevs) | [github.com/MosslandOpenDevs](https://github.com/MosslandOpenDevs) |
 | X (Twitter) | [@theMossland](https://twitter.com/theMossland) |

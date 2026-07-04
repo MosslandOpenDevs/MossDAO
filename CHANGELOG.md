@@ -4,6 +4,25 @@ All notable changes to the Mossland DAO governance will be documented in this fi
 
 > *[한국어 버전](CHANGELOG_KR.md)*
 
+## v1.1 (2026.07)
+
+### Platform
+- **Agora update**: **MAIT** (Mossland DAO AI Toolkit) is now integrated directly into Agora as a built-in AI layer — no longer a standalone service (`mait.moss.land` retired)
+- Launched **Mossland Passport** (beta / stealth soft launch) — a self-custody wallet activation program for MOC holders: gas-free signature authentication, governance delegation & signal voting, monthly check-in stamps, self-custody withdrawal fee compensation, and a "Founding 2026" commemorative stamp ([passport.moss.land](https://passport.moss.land/))
+
+### Documentation
+- Reframed MAIT as Agora's built-in AI feature (kept the MAIT name); removed the standalone `mait.moss.land` platform link across README and Governance docs
+- Added **Mossland Passport (Beta)** section to README (EN/KR) and the Governance v1.0 document (EN/KR)
+- Updated Links tables: removed MAIT, added Passport
+- Added AI-assistance note to the Agora feature lists
+- Refreshed **Algora** and **AO** descriptions to their current scope and added live URLs ([algora.moss.land](https://algora.moss.land/), [ao.moss.land](https://ao.moss.land/))
+
+### Notes
+- The governance model (proposal process, voting rules, membership) is **unchanged** from v1.0; this release updates platform/tooling descriptions only
+- Mossland Passport is in beta (stealth soft launch) — features and availability may change; signal votes and delegation via Passport are participation signals and do not replace the on-chain vote
+
+---
+
 ## v1.0 (2026.02)
 
 ### Governance
