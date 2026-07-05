@@ -19,7 +19,7 @@ Mossland DAO는 모스랜드 프로젝트의 생태계, 기금, 전략적 방향
 - **온체인 투표** — 이더리움에 기록되는 투명하고 검증 가능한 거버넌스 의사결정
 - **제안 제출** — MOC 보유자라면 누구나 Agora를 통해 제안 제출 가능
 - **커뮤니티 토론** — 투표 전 숙의를 위한 오픈 포럼
-- **내장 AI 지원** — Agora에 통합된 AI 툴킷 MAIT로 제안 드래프팅 및 분석 (아래 참고)
+- **내장 AI 지원** — AI 제안 초안 작성과 거버넌스 브리프. 종료된 MAIT 툴킷의 기능을 이어받음 (아래 참고)
 - **고급 검색 및 필터** — 상태, 카테고리, 날짜별 제안 검색; 분석을 위한 CSV 내보내기
 - **모바일 최적화** — 어떤 기기에서든 참여 가능한 반응형 디자인
 - **협력적 의사결정** — 1 MOC = 1 vote
@@ -29,16 +29,14 @@ Mossland DAO는 모스랜드 프로젝트의 생태계, 기금, 전략적 방향
 | 플랫폼 | [agora.moss.land](https://agora.moss.land/) |
 | 소스코드 | [github.com/MosslandOpenDevs/Agora](https://github.com/MosslandOpenDevs/Agora) |
 
-## AI 증강 거버넌스: MAIT
+## AI 증강 거버넌스
 
-**MAIT**(Mossland DAO AI Toolkit)는 Agora에 통합된 내장 AI 레이어로, 거버넌스 플랫폼에 직접 탑재되어 AI 기반 분석과 지원으로 참여를 강화합니다.
+Agora에는 내장 AI 레이어가 있습니다. 이는 종료된 **MAIT(Mossland DAO AI Toolkit)**의 기능을 Agora 안으로 이관한 것으로, 독립 MAIT 서비스는 종료되었습니다(`mait.moss.land`는 Agora로 리다이렉트됩니다).
 
-- **AI 기반 제안 드래프팅** — 주제 입력으로 제안 초안 자동 생성
-- **자동 언어 감지** — 한국어/영어 자동 감지 및 지원
-- **감성 분석** — 커뮤니티 감성 및 의사결정 지원 인사이트
-- **실시간 분석** — 투표 패턴과 참여 데이터
+- **AI 제안 초안 작성** — 작성 중 제안·토픽 초안 생성 (Google Gemini 기반)
+- **AI 거버넌스 브리프** — 제안 내용을 중립적으로 요약하며, 각 제안의 콘텐츠 해시에 바인딩 (Claude 기반)
 
-> MAIT는 이제 Agora에 내장되어 있으며, 별도의 앱이나 로그인이 없습니다. [agora.moss.land](https://agora.moss.land/)에서 바로 이용하세요.
+> 별도의 MAIT 앱이나 로그인은 없습니다. 위 기능은 [agora.moss.land](https://agora.moss.land/) 안에서 제공됩니다.
 
 ## Mossland Passport (Beta)
 
