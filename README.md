@@ -19,7 +19,7 @@ Mossland DAO is a community-driven decentralized governance framework that manag
 - **On-chain voting** — Transparent, verifiable governance decisions recorded on Ethereum
 - **Proposal submission** — Any MOC holder can submit proposals through Agora
 - **Community discussion** — Open forum for deliberation before voting
-- **Built-in AI assistance** — MAIT, Agora's integrated AI toolkit for proposal drafting and analysis (see below)
+- **Built-in AI assistance** — AI proposal drafting and governance briefs, folded in from the former MAIT toolkit (see below)
 - **Advanced search & filter** — Search proposals by status, category, and date; CSV export for analysis
 - **Mobile-optimized** — Responsive design for full participation on any device
 - **Collaborative decision-making** — 1 MOC = 1 vote
@@ -29,16 +29,14 @@ Mossland DAO is a community-driven decentralized governance framework that manag
 | Platform | [agora.moss.land](https://agora.moss.land/) |
 | Source | [github.com/MosslandOpenDevs/Agora](https://github.com/MosslandOpenDevs/Agora) |
 
-## AI-Augmented Governance: MAIT
+## AI-Augmented Governance
 
-**MAIT** (Mossland DAO AI Toolkit) is Agora's built-in AI layer, integrated directly into the governance platform to enhance participation through AI-powered analysis and support.
+Agora has a built-in AI layer — the capabilities of the former **MAIT (Mossland DAO AI Toolkit)**, now folded directly into Agora. The standalone MAIT service has been retired (`mait.moss.land` redirects to Agora).
 
-- **AI-assisted proposal drafting** — Generate proposal drafts from topic inputs
-- **Automatic language detection** — Korean/English auto-detection and support
-- **Sentiment analysis** — Community sentiment and decision support insights
-- **Real-time analytics** — Voting patterns and participation data
+- **AI proposal drafting** — generate proposal and topic drafts while writing (powered by Google Gemini)
+- **AI governance briefs** — neutral, extractive summaries of proposals, bound to each proposal's content hash (powered by Claude)
 
-> MAIT is now built into Agora — there is no separate app or login. Access it within [agora.moss.land](https://agora.moss.land/).
+> There is no separate MAIT app or login — these features live inside [agora.moss.land](https://agora.moss.land/).
 
 ## Mossland Passport (Beta)
 
