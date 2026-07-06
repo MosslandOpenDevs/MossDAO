@@ -27,7 +27,7 @@ These files are preserved in their original form for historical reference:
 The v0.3 governance model was designed in July 2022 as an initial research document for applying DAO governance to the Mossland project. It was modeled after the ApeCoin DAO and relied on Discourse for discussion, Snapshot for off-chain voting, and the Luniverse blockchain for MOC token operations.
 
 Since then, Mossland has evolved significantly:
-- **Agora** — a custom on-chain governance platform — was launched in January 2025
+- **Agora** — a custom public decision platform (gasless, off-chain voting) — was launched in January 2025
 - **MAIT** (Mossland DAO AI Toolkit) was developed for AI-augmented governance
 - **MOC** migrated from Luniverse to Ethereum ERC-20 (completed in 2025)
 

@@ -11,7 +11,7 @@
 | 유형 (Type) | [Core: Ecosystem Fund Allocation / Core: Brand Decision / Process / Informational] |
 | 작성일 (Created) | [YYYY-MM-DD] |
 | Agora 제안 ID | [Agora 제안 링크 또는 ID, 제출된 경우] |
-| 온체인 Tx 참조 | [이더리움 트랜잭션 해시, 투표 완료 후] |
+| 결과 검증 참조 | [서명된 투표 결과 번들 / 결과 해시, 투표 완료 후] |
 
 ---
 

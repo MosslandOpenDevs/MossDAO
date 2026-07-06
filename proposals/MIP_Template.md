@@ -11,7 +11,7 @@
 | Type | [Core: Ecosystem Fund Allocation / Core: Brand Decision / Process / Informational] |
 | Created | [YYYY-MM-DD] |
 | Agora Proposal ID | [Agora proposal link or ID, if submitted] |
-| On-chain Tx Reference | [Ethereum transaction hash, after vote completion] |
+| Result Verification Reference | [Signed vote-result bundle / result hash, after vote completion] |
 
 ---
 
