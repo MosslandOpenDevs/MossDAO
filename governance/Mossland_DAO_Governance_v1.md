@@ -12,7 +12,7 @@
 
 Mossland DAO is a decentralized governance framework that manages the Mossland project's ecosystem funds, strategic direction, and community initiatives. This document describes the current governance model (v1.0), which evolved from the initial v0.3 research design (2022) based on community feedback and operational experience.
 
-The v0.3 model was an initial research phase that utilized Discourse for discussion and Snapshot for off-chain voting. To maximize community participation and transparency, Mossland developed **Agora** — a custom public decision platform — enabling direct, gasless, and publicly verifiable voting weighted by each member's on-chain MOC balance.
+The v0.3 model was an initial research phase that utilized Discourse for discussion and Snapshot for off-chain voting. To maximize community participation and transparency, Mossland developed **Agora** — a custom public decision platform — enabling direct, gasless, and publicly verifiable voting weighted by each member's delegated on-chain MOC voting power (with a raw-balance fallback for members who have never delegated).
 
 ### Evolution from v0.3 to v1.0
 
@@ -66,7 +66,7 @@ Agora is Mossland DAO's public decision platform, launched in January 2025.
 - **Proposal submission**: Members submit proposals directly on Agora
 - **Community discussion**: Open forum for deliberation and feedback
 - **Gasless, off-chain voting**: Members cast For / Against / Abstain with a single EIP-712 wallet signature — no transaction, no gas. Votes are cryptographically signed and publicly verifiable rather than written to Ethereum as transactions.
-- **MOC snapshot weighting**: Each vote's weight is derived from the voter's MOC balance at a snapshot block (1 MOC = 1 vote)
+- **MOC snapshot weighting**: Each vote's weight is the voter's delegated MOC voting power at a snapshot block (1 MOC = 1 vote), with a raw-balance fallback for holders who have never delegated
 - **Binding decision of record**: Mossland DAO treats an approved proposal's result as its binding decision unless the proposal states otherwise; outcomes are published for public verification
 - **Built-in AI assistance**: MAIT, Agora's integrated AI toolkit, supports proposal drafting and analysis (see AI-Augmented Governance below)
 - **Advanced search & filter**: Search proposals by status, category, and date; CSV export for analysis and reporting
@@ -117,7 +117,7 @@ Moderators and administrators review the proposal for compliance with DAO-approv
 ### Step 4: Vote
 Approved proposals proceed to a gasless, MOC-weighted vote on Agora, cast by EIP-712 wallet signature (no transaction, no gas).
 
-- **Voting power**: 1 MOC = 1 vote, weighted by MOC balance at the snapshot block (fractional tokens are rounded down)
+- **Voting power**: 1 MOC = 1 vote, weighted by delegated MOC voting power at the snapshot block, with a raw-balance fallback if never delegated (fractional tokens are rounded down)
 - **Voting options**: "In Favor" or "Against"
 
 > Voting period: `[TBD]`
@@ -169,7 +169,7 @@ Mossland Passport is a self-custody wallet activation program for MOC holders, c
 | Platform | [passport.moss.land](https://passport.moss.land/) |
 | Status | Beta (soft launch) |
 
-> Mossland Passport is in beta; features and availability may change. It never requests private keys or seed phrases. Signal votes and delegation via Passport are participation signals and do not replace the formal MOC-weighted vote on Agora defined below.
+> Mossland Passport is in beta; features and availability may change. It never requests private keys or seed phrases. Signal votes via Passport are non-binding sentiment signals and do not replace the formal MOC-weighted vote on Agora defined below; delegation via Passport, however, flows into that vote by setting each holder's delegated MOC voting power at the snapshot block.
 
 ---
 
@@ -178,7 +178,7 @@ Mossland Passport is a self-custody wallet activation program for MOC holders, c
 Mossland DAO's consensus mechanism ensures voting is fair, transparent, and accessible.
 
 - **Platform**: Agora — gasless, off-chain voting by EIP-712 wallet signature (no transaction, no gas)
-- **Voting power**: 1 MOC = 1 vote, weighted by MOC balance at the snapshot block
+- **Voting power**: 1 MOC = 1 vote, weighted by delegated MOC voting power at the snapshot block (raw-balance fallback if never delegated)
 - **Rounding**: Fractional tokens are rounded down (e.g., 100.9 MOC = 100 votes)
 - **Options**: "In Favor" and "Against"
 - **Threshold**: Majority "In Favor" = accepted
@@ -235,3 +235,4 @@ MOC is now exclusively an Ethereum ERC-20 token. The Luniverse-based MOC has bee
 | v0.3 | July 2022 | Initial governance model design. Discourse/Snapshot-based. ApeCoin DAO reference. See [archive](../archive/v0.3_Governance_2022/). |
 | v1.0 | February 2026 | Agora-based public decision platform. MAIT AI augmentation. MOC ERC-20 on Ethereum. Repository restructured. |
 | v1.0 (rev.) | July 2026 | Platform update: MAIT integrated into Agora as a built-in AI layer (standalone `mait.moss.land` retired); Mossland Passport (beta) launched. Corrected Agora voting terminology to gasless, off-chain, EIP-712-signed, MOC-snapshot-weighted (voting is not written to Ethereum as transactions). Governance model unchanged. |
+| v1.0 (rev. 2) | July 2026 | Agora vote weighting is now delegation-aware: each vote's weight is the voter's delegated MOC voting power at the snapshot block (`ERC20Votes` — `getPastVotes`), with a raw-balance fallback for holders who have never delegated. Passport delegation now flows into the Agora vote; Passport signal votes remain non-binding. Governance model (proposal process, voting rules, membership) unchanged. |

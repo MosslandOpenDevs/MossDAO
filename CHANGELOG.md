@@ -4,6 +4,21 @@ All notable changes to the Mossland DAO governance will be documented in this fi
 
 > *[한국어 버전](CHANGELOG_KR.md)*
 
+## v1.3 (2026.07)
+
+### Governance
+- **Agora vote weighting is now delegation-aware**: each vote's weight is the voter's **delegated MOC voting power** at the proposal's snapshot block (`ERC20Votes` — `getPastVotes`), with a **raw-balance fallback** (`balanceOf`) for holders who have never delegated. 1 MOC = 1 vote still applies — a voter's weight comes from their delegated MOC voting power, or their raw balance if they have never delegated.
+
+### Documentation
+- Updated README (EN/KR) and the Governance v1.0 document (EN/KR) to describe Agora's **delegated MOC voting power** weighting with a raw-balance fallback (previously described as weighting by raw MOC balance)
+- Separated Passport's two participation mechanisms, correcting an earlier bundling: **signal votes** are non-binding sentiment signals that do **not** replace the Agora vote, whereas **delegation** via Passport now **flows into** the formal MOC-weighted Agora vote
+
+### Notes
+- The governance model (proposal process, voting rules, membership) is **unchanged**; this release reflects Agora's delegation-aware vote weighting and refines the related Passport wording
+- Voter guidance: to vote with your MOC, no action is required — your balance counts directly (raw-balance fallback); if you delegate, your delegate carries your weight; self-delegate to retain your own voting power
+
+---
+
 ## v1.2 (2026.07)
 
 ### Documentation
