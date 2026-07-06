@@ -4,6 +4,20 @@ All notable changes to the Mossland DAO governance will be documented in this fi
 
 > *[한국어 버전](CHANGELOG_KR.md)*
 
+## v1.2 (2026.07)
+
+### Documentation
+- **Corrected Agora voting terminology** across README (EN/KR) and the Governance v1.0 document (EN/KR): Agora voting is **gasless and off-chain** (Snapshot-style) — MOC holders cast For / Against / Abstain with a single EIP-712 wallet signature (no transaction, no gas), and vote weight is derived from each voter's MOC balance at a snapshot block. Votes are cryptographically signed and publicly verifiable rather than written to Ethereum as transactions. The earlier "on-chain voting / recorded on Ethereum" wording was inaccurate.
+- Reframed Agora as Mossland DAO's **public decision platform** (previously described as an "on-chain governance platform")
+- Clarified that experimental "Labs" projects (Algora, AO) carry **no governance authority** — only human MOC-holder votes on Agora are binding
+- Renamed the MIP metadata field **On-chain Tx Reference → Result Verification Reference** (EN/KR templates)
+
+### Notes
+- The governance model (proposal process, voting rules, membership) is **unchanged**; this release corrects platform/mechanism descriptions only
+- The MOC token itself remains an Ethereum ERC-20 asset; only the characterization of Agora *voting* was corrected
+
+---
+
 ## v1.1 (2026.07)
 
 ### Platform
@@ -19,15 +33,15 @@ All notable changes to the Mossland DAO governance will be documented in this fi
 
 ### Notes
 - The governance model (proposal process, voting rules, membership) is **unchanged** from v1.0; this release updates platform/tooling descriptions only
-- Mossland Passport is in beta (stealth soft launch) — features and availability may change; signal votes and delegation via Passport are participation signals and do not replace the on-chain vote
+- Mossland Passport is in beta (stealth soft launch) — features and availability may change; signal votes and delegation via Passport are participation signals and do not replace the formal MOC-weighted vote on Agora
 
 ---
 
 ## v1.0 (2026.02)
 
 ### Governance
-- Migrated governance process to **Agora**, Mossland's on-chain governance platform (launched January 2025)
-- Proposals, discussions, and votes are now conducted on Agora with on-chain transparency
+- Migrated governance process to **Agora**, Mossland DAO's public decision platform (launched January 2025)
+- Proposals, discussions, and gasless off-chain (EIP-712) votes are now conducted on Agora with public verifiability
 - Integrated **MAIT** (Mossland DAO AI Toolkit) for AI-augmented proposal analysis and drafting
 - Added experimental projects section: **Algora** (AI governance analytics) and **AO** (Agentic Orchestrator)
 

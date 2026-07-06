@@ -8,21 +8,22 @@ Mossland is building a hyper-connected world that bridges the real and virtual �
 
 ## What is the Mossland DAO?
 
-Mossland DAO is a community-driven decentralized governance framework that manages the Mossland project's ecosystem, funds, and strategic direction. MOC (Mosscoin) holders are members of the DAO and participate in proposals, discussions, and on-chain voting to shape the future of Mossland.
+Mossland DAO is a community-driven decentralized governance framework that manages the Mossland project's ecosystem, funds, and strategic direction. MOC (Mosscoin) holders are members of the DAO and participate in proposals, discussions, and gasless voting to shape the future of Mossland.
 
 - [Mossland DAO Governance v1.0](governance/Mossland_DAO_Governance_v1.md)
 
 ## Governance Platform: Agora
 
-**Agora** is Mossland's on-chain governance platform, launched in January 2025. It was built to maximize community participation and transparency in the governance process.
+**Agora** is Mossland DAO's public decision platform, launched in January 2025. It was built to maximize community participation and transparency in the governance process.
 
-- **On-chain voting** — Transparent, verifiable governance decisions recorded on Ethereum
+- **Gasless, off-chain voting** — MOC holders cast For / Against / Abstain with a single EIP-712 wallet signature: no transaction, no gas. Votes are cryptographically signed and publicly verifiable rather than written to Ethereum as transactions.
+- **MOC snapshot weighting** — Each vote's weight is derived from the voter's MOC balance at a snapshot block (1 MOC = 1 vote)
+- **Binding decision of record** — Mossland DAO treats an approved proposal's result as its binding decision unless the proposal states otherwise
 - **Proposal submission** — Any MOC holder can submit proposals through Agora
 - **Community discussion** — Open forum for deliberation before voting
 - **Built-in AI assistance** — AI proposal drafting and governance briefs, folded in from the former MAIT toolkit (see below)
 - **Advanced search & filter** — Search proposals by status, category, and date; CSV export for analysis
 - **Mobile-optimized** — Responsive design for full participation on any device
-- **Collaborative decision-making** — 1 MOC = 1 vote
 
 | | |
 |---|---|
@@ -51,7 +52,7 @@ Agora has a built-in AI layer — the capabilities of the former **MAIT (Mosslan
 
 > 🔒 Mossland Passport never requests private keys or seed phrases.
 >
-> 📋 Signal votes and delegation via Passport are participation signals — they do not replace binding on-chain votes on Agora.
+> 📋 Signal votes and delegation via Passport are participation signals — they do not replace the formal MOC-weighted vote on Agora.
 
 | | |
 |---|---|
@@ -60,7 +61,7 @@ Agora has a built-in AI layer — the capabilities of the former **MAIT (Mosslan
 
 ## Experimental Projects
 
-> The following projects are in **experimental** stages. Features and availability may change.
+> The following are **experimental** AI systems (Mossland "Labs"). They are not official products and carry no governance authority — only human MOC-holder votes on Agora are binding. Features and availability may change.
 
 - **Algora** — A 24/7 "agentic governance" platform where 30+ AI agent personas continuously debate DAO topics and surface recommendations for human decision-makers ([algora.moss.land](https://algora.moss.land/) · [GitHub](https://github.com/MosslandOpenDevs/Algora))
 - **AO (Agentic Orchestrator)** — A multi-agent orchestration engine that runs a swarm of AI agents through a divergence → convergence → planning cycle to propose and build software from live signals ([ao.moss.land](https://ao.moss.land/) · [GitHub](https://github.com/MosslandOpenDevs/agentic-orchestrator))
@@ -82,7 +83,7 @@ MIPs are the formal mechanism for proposing changes to the Mossland ecosystem. T
 1. **Proposal Submission** — Submit via Agora
 2. **Community Discussion** — Open discussion on Agora forum
 3. **Review** — Moderator/admin review
-4. **On-chain Vote** — 1 MOC = 1 vote
+4. **Vote** — Gasless EIP-712 signature, MOC snapshot-weighted (1 MOC = 1 vote)
 5. **Resolution** — Majority approval = accepted
 6. **Implementation**
 
