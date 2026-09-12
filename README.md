@@ -1,5 +1,9 @@
 # Mossland DAO
 
+<!-- opendevs-badges:start -->
+[![Website: agora.moss.land](https://img.shields.io/badge/Website-agora.moss.land-2563eb?style=flat)](https://agora.moss.land/)
+<!-- opendevs-badges:end -->
+
 > *[한국어 버전](README_KR.md)*
 
 ## Mossland Vision
@@ -65,7 +69,7 @@ Agora has a built-in AI layer — the capabilities of the former **MAIT (Mosslan
 
 > The following are **experimental** AI systems (Mossland "Labs"). They are not official products and carry no governance authority — only human MOC-holder votes on Agora are binding. Features and availability may change.
 
-- **Algora** — A 24/7 "agentic governance" platform where 30+ AI agent personas continuously debate DAO topics and surface recommendations for human decision-makers ([algora.moss.land](https://algora.moss.land/) · [GitHub](https://github.com/MosslandOpenDevs/Algora))
+- **Algora** — Archived multi-agent governance research platform. Scheduled report generation stopped on September 2, 2026; published reports remain available as records ([algora.moss.land](https://algora.moss.land/) · [GitHub](https://github.com/MosslandOpenDevs/Algora))
 - **AO (Agentic Orchestrator)** — A multi-agent orchestration engine that runs a swarm of AI agents through a divergence → convergence → planning cycle to propose and build software from live signals ([ao.moss.land](https://ao.moss.land/) · [GitHub](https://github.com/MosslandOpenDevs/agentic-orchestrator))
 
 ## MOC Token & Membership

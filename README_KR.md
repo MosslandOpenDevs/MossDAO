@@ -1,5 +1,9 @@
 # Mossland DAO
 
+<!-- opendevs-badges:start -->
+[![Website: agora.moss.land](https://img.shields.io/badge/Website-agora.moss.land-2563eb?style=flat)](https://agora.moss.land/)
+<!-- opendevs-badges:end -->
+
 > *[English Version](README.md)*
 
 ## 모스랜드 비전
@@ -65,7 +69,7 @@ Agora에는 내장 AI 레이어가 있습니다. 이는 종료된 **MAIT(Mosslan
 
 > 아래는 **실험(Experimental)** 단계의 AI 시스템(모스랜드 "Labs")입니다. 공식 제품이 아니며 거버넌스 효력이 없습니다 — 구속력을 갖는 것은 Agora에서의 사람 MOC 보유자 투표뿐입니다. 기능과 가용성이 변경될 수 있습니다.
 
-- **Algora** — 30개 이상의 AI 에이전트 페르소나가 24시간 DAO 이슈를 자율 토론하고, 사람 의사결정자에게 추천안을 제시하는 에이전틱 거버넌스 플랫폼 ([algora.moss.land](https://algora.moss.land/) · [GitHub](https://github.com/MosslandOpenDevs/Algora))
+- **Algora** — 아카이브된 다중 에이전트 거버넌스 연구 플랫폼. 정기 보고서 생성은 2026년 9월 2일 종료되었으며, 발행된 보고서는 기록으로 보존됩니다 ([algora.moss.land](https://algora.moss.land/) · [GitHub](https://github.com/MosslandOpenDevs/Algora))
 - **AO (Agentic Orchestrator)** — AI 에이전트 스웜을 발산 → 수렴 → 계획 사이클로 구동해, 라이브 시그널로부터 소프트웨어를 제안·구축하는 멀티에이전트 오케스트레이션 엔진 ([ao.moss.land](https://ao.moss.land/) · [GitHub](https://github.com/MosslandOpenDevs/agentic-orchestrator))
 
 ## MOC 토큰 및 멤버십
